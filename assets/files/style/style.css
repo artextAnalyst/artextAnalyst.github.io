@@ -1,0 +1,56 @@
+/**
+ * Made by Adam basha
+*/
+*{padding: 0; margin: 0;}
+.middle{
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 75%;
+}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:80%;
+ }
+ nav button{
+    margin-left: 25%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+ 
+ }
+ textarea{
+    width:80%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ #checker{
+    position:fixed;
+    top:5%;
+    left:5%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:15%;
+ 
+ }
+ #write{
+    position: absolute;
+    top:10%;
+    left:5%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:15%;
+    word-wrap: break-word;
+    word-spacing: 50px;
+ 
+     
+ }
+ table, th, td {
+    border: 2px solid;
+ }
+ table{width:85%}
