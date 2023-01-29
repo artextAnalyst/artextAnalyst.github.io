@@ -1,6 +1,13 @@
 /**
  * Made by Adam basha
 */
+body.custom-background {
+   background-image: url(https://artextAnalyst.github.io\assets\files\img\bg.png);
+   background-position: left top;
+   background-size: auto;
+   background-repeat: repeat;
+   background-attachment: scroll;
+}
 *{padding: 0; margin: 0;}
 .middle{
     margin-top: 50px;
@@ -8,14 +15,18 @@
     width: 75%;
 }
 nav{
-    position: fixed;
-    top:0;
-    left:0;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width:80%;
- }
+   position: fixed;
+   top:0;
+   left:0;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   width:100%;
+   background-color: aquamarine;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
  nav button{
     margin-left: 25%;
     font-size: 20px;
@@ -27,6 +38,7 @@ nav{
     width:80%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
      
  }
  #checker{
@@ -36,6 +48,7 @@ nav{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width:15%;
+    margin-top: 50px;
  
  }
  #write{
