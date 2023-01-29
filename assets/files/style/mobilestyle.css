@@ -5,7 +5,7 @@
         
     }
     button, #checker{
-        width:80%;
+        width:70%;
         margin-left:  10%;
         margin-bottom: 2%;
     }
@@ -21,5 +21,6 @@
     nav{
         justify-content: center;
     }
+    
     
 }
